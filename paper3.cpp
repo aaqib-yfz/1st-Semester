@@ -15,7 +15,9 @@ int main(){
 		cin>>per[i].age;
 		cout<<"Enter salary of : "<<j<<" person : ";
 		cin>>per[i].salary;
+		j++;
 	}
+	 int j=1;
 	for(int i=0; i<5; i++){
 		cout<<"Name of : "<<j<<" person : ";
 		cout<<per[i].name;
@@ -26,6 +28,7 @@ int main(){
 		cout<<"salary of : "<<j<<" person : ";
 		cout<<per[i].salary;
 		cout<<endl;
+		j++;
 	}
 	
 	return 0;

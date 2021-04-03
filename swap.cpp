@@ -15,8 +15,8 @@ int n1,n2,temp;
     n1=n2;
     n2=temp;
     temp=n2;
-cout<<"     AFTER SWAP      "<<endl;
-cout<<"n1 = "<<n1<<endl;
-cout<<"n2 = "<<n2<<endl;
+    cout<<"     AFTER SWAP      "<<endl;
+    cout<<"n1 = "<<n1<<endl;
+    cout<<"n2 = "<<n2<<endl;
 
 }
